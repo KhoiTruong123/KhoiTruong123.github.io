@@ -5,11 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Caculator</title>
+    <script src="js/Caculator.js"></script>
+    <link rel="stylesheet" href="css/caculator.css">
+
+    <style>
+
+    </style>
 </head>
 
 <body>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores excepturi obcaecati architecto, rem, nostrum sunt itaque sit soluta et, modi tempora fugit facere asperiores similique blanditiis hic velit doloribus.</p>
+
+    <div class="caculator">
+        <form action="" class="NoiNhapPhepTinh">
+            <input type="text" id="Noinhap" value="" class="NutNhap" />
+            <div class="BaNut">
+                <button class="Do"></button>
+                <button class="Vang"></button>
+                <button class="Xanh"></button>
+            </div>
+        </form>
+        <input type="button" onclick=" onClearScreen()" id="Delete" value="AC" class="Nut" />
+        <input type="button" onclick="" id="CongTru" value="+/-" class="Nut" />
+        <input type="button" onclick="onOperationClick(this)" id="PhanTram" value="%" class="Nut" />
+        <input type="button" onclick="onOperationClick(this)" id="Chia" value="÷" class="Nut NutVang" />
+        <input type="button" onclick="onNumberClick(this)" id="Bay" value="7" class="Nut Nutso" />
+        <input type="button" onclick="onNumberClick(this)" id="Tam" value="8" class="Nut Nutso" />
+        <input type="button" onclick="onNumberClick(this)" id="Chin" value="9" class="Nut Nutso" />
+        <input type="button" onclick="onOperationClick(this)" id="Nhan" value="x" class="Nut NutVang" />
+        <input type="button" onclick="onNumberClick(this)" id="Bon" value="4" class="Nut Nutso" />
+        <input type="button" onclick="onNumberClick(this)" id="Nam" value="5" class="Nut Nutso" />
+        <input type="button" onclick="onNumberClick(this)" id="Sau" value="6" class="Nut Nutso" />
+        <input type="button" onclick="onOperationClick(this)" id="Tru" value="-" class="Nut NutVang" />
+        <input type="button" onclick="onNumberClick(this)" id="Mot" value="1" class="Nut Nutso" />
+        <input type="button" onclick="onNumberClick(this)" id="Hai" value="2" class="Nut Nutso" />
+        <input type="button" onclick="onNumberClick(this)" id="Ba" value="3" class="Nut Nutso" />
+        <input type="button" onclick="onOperationClick(this)" id="Cong" value="+" class="Nut NutVang" />
+        <input type="button" onclick="onNumberClick(this)" id="Khong" value="0" class="Nut Nutso" />
+        <input type="button" onclick="onDot(this)" id="Phay" value="." class="Nut" />
+        <input type="button" onclick="onOperationClick(this)" id="Bang" value="=" class="Nut NutVang" />
+    </div>
+
+    <script>
+    </script>
+
+</body>
+
+</html>
+
+</script>
+
 </body>
 
 </html>
