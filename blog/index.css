@@ -1,0 +1,114 @@
+.post {
+    border-top: 2px solid blue;
+    border-right: 2px solid blue;
+    border-left: 2px solid blue;
+    border-bottom: none;
+    text-align: center;
+}
+
+.posttitle {
+    text-align: center;
+}
+
+.post_button button:hover {
+    cursor: pointer;
+    background: wheat;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-size: 18px;
+    color: red;
+}
+
+body {
+    background-color: #E0F8F7;
+    margin: 0;
+}
+
+#demoDetail {
+    width: 60%;
+    margin: auto;
+}
+
+.detailPost {
+    margin: 5% 0;
+    border: 2px solid brown;
+    background-color: lightgrey;
+}
+
+p:first-child {
+    margin: 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.post_button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_button button {
+    background: #D0FA58;
+    height: 30px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.detailPostCmt {
+    background-color: lightgrey;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+}
+
+#demo2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.detailPostCmt {
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid brown;
+}
+
+.userPost {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.userPost div {
+    border: 2px solid brown;
+}
+
+#user2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#user {
+    width: 60%;
+    margin: auto;
+}
+
+.geo {
+    margin-left: 30px;
+}
+
+.adress {
+    margin-left: 10px;
+}

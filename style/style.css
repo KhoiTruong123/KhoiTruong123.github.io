@@ -1,129 +1,24 @@
-.caculator {
-    width: 40%;
-    margin: auto;
-    background: #424242;
+body {
+    background: lightblue;
 }
 
-.caculator {
+.containinglink {
+    transform: translate(35%, 10%);
+    width: 60%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.NutNhap {
-    width: 98%;
-    height: 150px;
-    font-size: 52px;
-    text-align: right;
-    background: #424242;
-    color: white;
+button {
+    width: 40%;
+    height: 100px;
+    font-size: 30px;
 }
 
-.NoiNhapPhepTinh {
-    position: relative;
+a:hover {
+    color: red;
 }
 
-.BaNut {
-    position: absolute;
-    left: 5%;
-    top: 10%;
-    width: 50%;
-}
-
-.BaNut button {
-    width: 25px;
-    height: 25px;
-    border-radius: 13px;
-    border: none;
-    margin-right: 5%;
-}
-
-.Do {
-    background: red;
-}
-
-.Vang {
-    background: yellow;
-}
-
-.Xanh {
-    background: green;
-}
-
-.Nut {
-    width: 24.2%;
-    height: 90px;
-    font-size: 36px;
-    margin-bottom: 3px;
-    margin-right: 0.7%;
-    background: #848484;
-    color: white;
-    border: none;
-}
-
-#Delete {
-    background: #585858;
-}
-
-#Delete:hover {
-    background-color: rgb(245, 239, 239);
-    cursor: pointer;
-}
-
-#CongTru {
-    background: #585858;
-}
-
-#CongTru:hover {
-    background-color: rgb(245, 239, 239);
-    cursor: pointer;
-}
-
-#PhanTram {
-    background: #585858;
-}
-
-#PhanTram:hover {
-    background-color: rgb(245, 239, 239);
-    cursor: pointer;
-}
-
-.Nut:hover {
-    background-color: rgb(245, 239, 239);
-    cursor: pointer;
-}
-
-input:nth-child(18) {
-    width: 49%;
-}
-
-.NutVang {
-    background: #DBA901;
-}
-
-
-/* Reponsive */
-
-
-/* mobi */
-
-.caculator {
-    width: 100%;
-}
-
-
-/* tablet */
-
-@media screen and (min-width: 600px) {
-    .caculator {
-        width: 70%;
-    }
-}
-
-
-/* Destop */
-
-@media screen and (min-width: 600px) {
-    .caculator {
-        width: 40%;
-    }
+a {
+    text-decoration: none;
 }
